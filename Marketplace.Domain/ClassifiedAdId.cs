@@ -5,10 +5,10 @@ using System.Text;
 
 namespace Marketplace.Domain
 {
-    public class UserId : Value<UserId>
+    public class ClassifiedAdId : Value<ClassifiedAdId>
     {
         private readonly Guid _value;
 
-        public UserId(Guid value) => _value = value;
+        public ClassifiedAdId(Guid value) => _value = value;
     }
 }
